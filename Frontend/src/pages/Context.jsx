@@ -1,11 +1,11 @@
 import React from 'react'
 
-const App = () => {
+const Context = () => {
   return (
     <div>
-      
+        
     </div>
   )
 }
 
-export default App
+export default Context
