@@ -7,12 +7,14 @@ import About from './pages/About'
 import MyProfile from './pages/MyProfile'
 import MyAppointments from './pages/MyAppointments'
 import Appointment from './pages/Appointment'
+import Navbar from './components/Navbar'
+import Contact from './pages/Contact'
 
-//This App.jsx file will act as our Routing for the Project
-
+//This App.jsx file will act as our Routing for the Projec
 const App = () => {
   return (
     <div className='mx-4 sm:mx-[10%]'>
+      <Navbar />
       <Routes>
         <Route path= '/' element={<Home/>} />
         <Route path= '/doctors' element={<Doctors/>} />
