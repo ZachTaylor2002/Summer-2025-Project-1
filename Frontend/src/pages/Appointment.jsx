@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { AppContext } from '../context/AppContext'
 import { assets } from '../assets/assets'
+import RelatedDoctors from '../components/RelatedDoctors'
 
 const Appointment = () => {
 
@@ -111,7 +112,7 @@ const Appointment = () => {
 
           {/*----- Doctor About -------- */}
           <div>
-            <p className='flex items-center gsp-1 text-sm font-medium text-gray-900 mt-3'>About <img src={assets.info_icon} alt="" /></p>
+            <p className='flex items-center gap-1 text-sm font-medium text-gray-900 mt-3'>About <img src={assets.info_icon} alt="" /></p>
             <p className='text-sm text-gray-500 max-w-[700px] mt-1'>{docInfo.about}</p>
           </div>
             <p className='text-gray-500 font-medium mt-4'>
@@ -146,6 +147,9 @@ const Appointment = () => {
         </div>
         <button className='bg-primary text-white text-sm font-light px-14 py-3 rounded-full my-6'> Book an appointment </button>
       </div>
+
+      {/* Listing out the Related Doctors here */}
+      <RelatedDoctors docId={docId} specialty={docInfo.specialty}/>
         
     </div>
   )
