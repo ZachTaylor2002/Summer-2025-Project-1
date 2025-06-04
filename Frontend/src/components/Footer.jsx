@@ -8,7 +8,7 @@ const Footer = () => {
                 {/* ---- Left Section of Footer ---- */}
                 <div>
                     <img className='mb-5 w-40' src={assets.logo} alt="" />
-                    <p className='w-full md:w-2/3 text-gray-600 leading-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p className='w-full md:w-2/3 text-gray-600 leading-6'>ZRHealthLink, your new doctor scheduling platform. Made to be user friendly and helpful for those trying to stay on top of their health!</p>
                 </div>
 
                 {/* ---- Center Section of Footer ---- */}
@@ -27,7 +27,7 @@ const Footer = () => {
                     <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
                     <ul className='flex flex-col gap-2 text-gray-600'>
                         <li>+1-123-456-7890</li>
-                        <li>example@gmail.com</li>
+                        <li>ZRHealth@outlook.com</li>
                     </ul>
                 </div>
             </div>
@@ -35,7 +35,7 @@ const Footer = () => {
                 {/* ---- Copyright Text ---- */}
                 <div>
                     <hr />
-                    <p className='py-5 text-sm text-center'>Copyright 2025 @ CompanyName - All Rights Reserved.</p>
+                    <p className='py-5 text-sm text-center'>Copyright 2025 @ ZRHealthLink - All Rights Reserved.</p>
                 </div>
             </div>
         </div>
