@@ -13,11 +13,11 @@ const Contact = () => {
 
         <div className='flex flex-col justify-center items-start gap-6'>
           <p className='font-semibold text-lg text-gray-600'>OUR OFFICE</p>
-          <p className='text-gray-500'>123 kachow street <br/> Suite 150, Washington, USA</p>
-          <p className='text-gray-500'>Tel: (123) 456-7890 <br/> Email: something@gmail.com</p>
+          <p className='text-gray-500'>8279 Health Road <br/> Murfreesboro, TN 37127</p>
+          <p className='text-gray-500'>Tel: (123) 456-7890 <br/> Email: ZRHealth@outlook.com</p>
           <p className='font-semibold text-lg text-gray-600'>Careers at ZRLink</p>
           <p className='text-gray-500'>Learn more about our teams and job openings</p>
-          <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>Explore Jobs</button>
+          <button className='border border-primary px-8 py-4 text-sm hover:bg-primary hover:text-white transition-all duration-500'>Explore Jobs</button>
         </div>
       </div>
     </div>
