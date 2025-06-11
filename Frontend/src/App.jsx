@@ -10,11 +10,14 @@ import Appointment from './pages/Appointment'
 import Navbar from './components/Navbar'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
+import { ToastContainer, toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 //This App.jsx file will act as our Routing for the Projec
 const App = () => {
   return (
     <div className='mx-4 sm:mx-[10%]'>
+      <ToastContainer/>
       <Navbar />
       <Routes>
         <Route path= '/' element={<Home/>} />
