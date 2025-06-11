@@ -1,5 +1,5 @@
 import validator from 'validator'
-import bycrypt from 'bcrypt'
+import bcrypt from 'bcrypt'
 import userModel from '../models/userModel.js'
 import jwt from 'jsonwebtoken'
 
@@ -17,7 +17,7 @@ const registerUser = async (req,res) => {
 
         //validating the email format
         if (!validator.isEmail(email)){
-             return res.json({success:false, message:"Enter a valid email"})
+            return res.json({success:false, message:"Enter a valid email"})
 
         }
 
@@ -27,8 +27,8 @@ const registerUser = async (req,res) => {
         }
 
         // Hashing the users password
-        const salt = await bycrypt.genSalt(10)
-        const hashedPassword = await bycrypt.hash(password,salt)
+        const salt = await bcrypt.genSalt(10)
+        const hashedPassword = await bcrypt.hash(password,salt)
 
         const userData = {
             name,
@@ -52,4 +52,34 @@ const registerUser = async (req,res) => {
     }
 }
 
-export {registerUser}
+//API for user login
+const loginUser = async (req, res) => {
+
+    try {
+        
+        const {email, password} = req.body
+        const user = await userModel.findOne({email})
+
+        if (!user) {
+            return res.json({success:false,message:'User does not exist'})
+        }
+
+        const isMatch = await bcrypt.compare(password, user.password)
+
+        if (isMatch) {
+            const token = jwt.sign({id:user._id}, process.env.JWT_SECRET)
+            res.json({success:true, token})
+        } else {
+            res.json({success:false, message:"Invalid credentials"})
+        }
+
+    } catch (error) {
+        console.log(error)
+        res.json({success:false,message:error.message})
+    }
+
+
+
+}
+
+export {registerUser, loginUser}
