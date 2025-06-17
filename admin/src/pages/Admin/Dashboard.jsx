@@ -1,8 +1,13 @@
 import React from 'react'
 
 const Dashboard = () => {
+
+  //dashData, getDashData
+  
   return (
-    <div>Dashboard</div>
+    <div>
+
+    </div>
   )
 }
 
