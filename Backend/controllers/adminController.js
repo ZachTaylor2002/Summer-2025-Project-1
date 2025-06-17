@@ -147,7 +147,7 @@ const adminDashboard = async (req,res) => {
     
     try {
         const doctors = await doctorModel.find({})
-        const users = await userModel.find([])
+        const users = await userModel.find({})
         const appointments = await appointmentModel.find({})
 
         const dashData = {
@@ -157,7 +157,7 @@ const adminDashboard = async (req,res) => {
             lastestAppointments: appointments.reverse().slice(0,5)
         }
 
-        res.json({sucess:true, dashData})
+        res.json({success:true, dashData})
 
         
     } catch (error) {
