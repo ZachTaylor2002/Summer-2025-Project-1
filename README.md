@@ -9,7 +9,7 @@
 <em>Revolutionizing Healthcare Access — One Seamless Appointment at a Time</em>
 <!-- BADGES: Static custom version -->
 <img src="https://img.shields.io/badge/License-MIT-0080ff?style=flat&logo=opensourceinitiative&logoColor=white" alt="license">
-<img src="https://img.shields.io/badge/Last_Commit-July_2025-0080ff?style=flat&logo=git&logoColor=white" alt="last-commit">
+<img src="https://img.shields.io/badge/Last_Commit-June_2025-0080ff?style=flat&logo=git&logoColor=white" alt="last-commit">
 <img src="https://img.shields.io/badge/Top_Language-JavaScript-0080ff?style=flat&logo=javascript&logoColor=white" alt="top-language">
 <img src="https://img.shields.io/badge/Languages_Used-4-0080ff?style=flat&logo=code&logoColor=white" alt="repo-language-count">
 
