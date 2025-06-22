@@ -2,7 +2,7 @@
 
 <!-- HEADER STYLE: CLASSIC -->
 <div align="center">
-<img src="Frontend/src/assets/ZR Real.png" alt="ZR Health Link Logo" width="250" />
+<img src="Frontend/src/assets/ZR Real.png" alt="ZR Health Link Logo" width="300" />
 
 # ZR Health Link
 
