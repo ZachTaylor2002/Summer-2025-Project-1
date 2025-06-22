@@ -18,12 +18,13 @@
 <img src="https://img.shields.io/badge/Mongoose-F04D35.svg?style=flat&logo=Mongoose&logoColor=white" alt="Mongoose">
 <img src="https://img.shields.io/badge/Express-000000.svg?style=flat&logo=Express&logoColor=white" alt="Express">
 <img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React">
-<img src="https://img.shields.io/badge/Nodemon-76D04B.svg?style=flat&logo=Nodemon&logoColor=white" alt="Nodemon">
+<img src="https://img.shields.io/badge/Node.js-339933.svg?style=flat&logo=node.js&logoColor=white" alt="Node.js">
 <img src="https://img.shields.io/badge/.ENV-ECD53F.svg?style=flat&logo=dotenv&logoColor=black" alt=".ENV">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
 <br>
 <img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
 <img src="https://img.shields.io/badge/npm-CB3837.svg?style=flat&logo=npm&logoColor=white" alt="npm">
+<img src="https://img.shields.io/badge/Nodemon-76D04B.svg?style=flat&logo=Nodemon&logoColor=white" alt="Nodemon">
 <img src="https://img.shields.io/badge/Axios-5A29E4.svg?style=flat&logo=Axios&logoColor=white" alt="Axios">
 <img src="https://img.shields.io/badge/Redux-764ABC.svg?style=flat&logo=Redux&logoColor=white" alt="Redux">
 <img src="https://img.shields.io/badge/Nodemon-76D04B.svg?style=flat&logo=Nodemon&logoColor=white" alt="Nodemon">
@@ -74,4 +75,24 @@ ZR Health Link/
 ```
 
 ## Software Engineering Team
-<table> <tr> <td> <strong>Ryan Thieu</strong><br> <em>Software Engineering Graduate from MTSU</em><br> <a href="https://www.linkedin.com/in/rthieu/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20" /> LinkedIn </a> | <a href="https://myrtportfolio.vercel.app/">🌐 Portfolio</a> </td> </tr> <tr> <td> <strong>Zachary L. Taylor</strong><br> <em>Software Developer Intern @ Bondware Inc</em><br> <a href="https://www.linkedin.com/in/z-taylor02/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20" /> LinkedIn </a> | <a href="https://zachtaylor.netlify.app/">🌐 Portfolio</a> </td> </tr> </table>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Ryan Thieu</strong><br>
+      <em>Software Engineering Graduate from MTSU</em><br>
+      <a href="https://www.linkedin.com/in/rthieu/">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/> LinkedIn
+      </a> |
+      <a href="https://myrtportfolio.vercel.app/">🌐 Portfolio</a>
+    </td>
+    <td align="center" width="50%">
+      <strong>Zachary L. Taylor</strong><br>
+      <em>Software Developer Intern @ Bondware Inc</em><br>
+      <a href="https://www.linkedin.com/in/z-taylor02/">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/> LinkedIn
+      </a> |
+      <a href="https://zachtaylor.netlify.app/">🌐 Portfolio</a>
+    </td>
+  </tr>
+</table>
+
