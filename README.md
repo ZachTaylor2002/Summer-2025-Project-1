@@ -78,6 +78,7 @@ ZR Health Link/
 <table>
   <tr>
     <td align="center" width="50%">
+    <img src="https://github.com/RT-1848.png" width="100" style="border-radius:50%"><br>
       <strong>Ryan Thieu</strong><br>
       <em>Software Engineering Graduate from MTSU</em><br>
       <a href="https://www.linkedin.com/in/rthieu/">
@@ -86,6 +87,7 @@ ZR Health Link/
       <a href="https://myrtportfolio.vercel.app/">🌐 Portfolio</a>
     </td>
     <td align="center" width="50%">
+     <img src="https://github.com/ZachTaylor2002.png" width="100" style="border-radius:50%"><br>
       <strong>Zachary L. Taylor</strong><br>
       <em>Software Developer Intern @ Bondware Inc</em><br>
       <a href="https://www.linkedin.com/in/z-taylor02/">
