@@ -58,16 +58,6 @@ ZR Health Link/
 │   ├── node_modules
 │   ├── public
 │   ├── src
-│   ├── .env
-│   ├── .gitignore
-│   ├── eslint.config.js
-│   ├── index.html
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── postcss.config.js
-│   ├── README.md
-│   ├── tailwind.config.js
-│   └── vite.config.js
 ├── Backend
 │   ├── config
 │   ├── controllers
@@ -76,25 +66,11 @@ ZR Health Link/
 │   ├── node_modules
 │   ├── routes
 │   ├── .env
-│   ├── .gitignore
-│   ├── package-lock.json
-│   ├── package.json
-│   └── server.js
 └── Frontend
     ├── .vite
     ├── node_modules
     ├── public
     ├── src
-    ├── .env
-    ├── .gitignore
-    ├── eslint.config.js
-    ├── index.html
-    ├── package-lock.json
-    ├── package.json
-    ├── postcss.config.js
-    ├── README.md
-    ├── tailwind.config.js
-    └── vite.config.js
 ```
 
 
