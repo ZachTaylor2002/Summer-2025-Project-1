@@ -58,13 +58,6 @@ ZR Health Link/
 │   ├── node_modules
 │   ├── public
 │   ├── src
-│   │   ├── assets
-│   │   ├── components
-│   │   ├── context
-│   │   ├── pages
-│   │   ├── App.jsx
-│   │   ├── index.css
-│   │   └── main.jsx
 │   ├── .env
 │   ├── .gitignore
 │   ├── eslint.config.js
@@ -78,22 +71,10 @@ ZR Health Link/
 ├── Backend
 │   ├── config
 │   ├── controllers
-│   │   ├── adminController.js
-│   │   ├── doctorController.js
-│   │   └── userController.js
 │   ├── middleware
-│   │   ├── authAdmin.js
-│   │   ├── authUser.js
-│   │   └── multer.js
 │   ├── models
-│   │   ├── appointmentModels.js
-│   │   ├── doctorModel.js
-│   │   └── userModel.js
 │   ├── node_modules
 │   ├── routes
-│   │   ├── adminRoute.js
-│   │   ├── doctorRoute.js
-│   │   └── userRoute.js
 │   ├── .env
 │   ├── .gitignore
 │   ├── package-lock.json
@@ -104,13 +85,6 @@ ZR Health Link/
     ├── node_modules
     ├── public
     ├── src
-    │   ├── assets
-    │   ├── components
-    │   ├── context
-    │   ├── pages
-    │   ├── App.jsx
-    │   ├── index.css
-    │   └── main.jsx
     ├── .env
     ├── .gitignore
     ├── eslint.config.js
