@@ -6,7 +6,7 @@
 
 # ZR Health Link
 
-<em>Revolutionizing Healthcare Access — One Seamless Appointment at a Time</em>
+<em>Revolutionizing Healthcare Access — One Appointment at a Time</em>
 <!-- BADGES: Static custom version -->
 <img src="https://img.shields.io/badge/License-MIT-0080ff?style=flat&logo=opensourceinitiative&logoColor=white" alt="license">
 <img src="https://img.shields.io/badge/Last_Commit-June_2025-0080ff?style=flat&logo=git&logoColor=white" alt="last-commit">
@@ -50,4 +50,77 @@ Key features include:
 - **🛠️ Admin Control Panel:** Admins can oversee all users, doctors, and appointments with full management access.
 - **🌐 Fullstack MERN Architecture:** Built using MongoDB, Express.js, React.js, and Node.js for a performant and maintainable codebase.
 - **📱 Responsive Design:** Optimized for desktop and mobile devices, ensuring accessibility and usability across all screen sizes.
+
+## Project Structure
+```sh
+ZR Health Link/
+├── admin
+│   ├── node_modules
+│   ├── public
+│   ├── src
+│   │   ├── assets
+│   │   ├── components
+│   │   ├── context
+│   │   ├── pages
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── .env
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── README.md
+│   ├── tailwind.config.js
+│   └── vite.config.js
+├── Backend
+│   ├── config
+│   ├── controllers
+│   │   ├── adminController.js
+│   │   ├── doctorController.js
+│   │   └── userController.js
+│   ├── middleware
+│   │   ├── authAdmin.js
+│   │   ├── authUser.js
+│   │   └── multer.js
+│   ├── models
+│   │   ├── appointmentModels.js
+│   │   ├── doctorModel.js
+│   │   └── userModel.js
+│   ├── node_modules
+│   ├── routes
+│   │   ├── adminRoute.js
+│   │   ├── doctorRoute.js
+│   │   └── userRoute.js
+│   ├── .env
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   └── server.js
+└── Frontend
+    ├── .vite
+    ├── node_modules
+    ├── public
+    ├── src
+    │   ├── assets
+    │   ├── components
+    │   ├── context
+    │   ├── pages
+    │   ├── App.jsx
+    │   ├── index.css
+    │   └── main.jsx
+    ├── .env
+    ├── .gitignore
+    ├── eslint.config.js
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.js
+    ├── README.md
+    ├── tailwind.config.js
+    └── vite.config.js
+```
+
 
