@@ -74,5 +74,4 @@ ZR Health Link/
 ```
 
 ## Software Engineering Team
-Ryan Thieu `(Software Engineering Graduate from MTSU)` [Linkedin](https://www.linkedin.com/in/rthieu/) | [Personal Portfolio](https://myrtportfolio.vercel.app/)<br>
-Zach L. Taylor `(Software Developer Intern @ Bondware Inc)` [Linkedin](https://www.linkedin.com/in/z-taylor02/) | [Personal Portfolio](https://zachtaylor.netlify.app/) <br>
+<table> <tr> <td> <strong>Ryan Thieu</strong><br> <em>Software Engineering Graduate from MTSU</em><br> <a href="https://www.linkedin.com/in/rthieu/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20" /> LinkedIn </a> | <a href="https://myrtportfolio.vercel.app/">🌐 Portfolio</a> </td> </tr> <tr> <td> <strong>Zachary L. Taylor</strong><br> <em>Software Developer Intern @ Bondware Inc</em><br> <a href="https://www.linkedin.com/in/z-taylor02/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20" /> LinkedIn </a> | <a href="https://zachtaylor.netlify.app/">🌐 Portfolio</a> </td> </tr> </table>
