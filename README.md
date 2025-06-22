@@ -9,10 +9,10 @@
 <em>Revolutionizing Healthcare Access — One Seamless Appointment at a Time</em>
 
 <!-- BADGES -->
-<img src="https://img.shields.io/github/license/maximusmenendez/Ecommerce-App?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-<img src="https://img.shields.io/github/last-commit/maximusmenendez/Ecommerce-App?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-<img src="https://img.shields.io/github/languages/top/maximusmenendez/Ecommerce-App?style=flat&color=0080ff" alt="repo-top-language">
-<img src="https://img.shields.io/github/languages/count/maximusmenendez/Ecommerce-App?style=flat&color=0080ff" alt="repo-language-count">
+<img src="https://img.shields.io/github/license/ZachTaylor2002/Ecommerce-App?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+<img src="https://img.shields.io/github/last-commit/ZachTaylor2002/Ecommerce-App?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+<img src="https://img.shields.io/github/languages/top/ZachTaylor2002/Ecommerce-App?style=flat&color=0080ff" alt="repo-top-language">
+<img src="https://img.shields.io/github/languages/count/ZachTaylor2002/Ecommerce-App?style=flat&color=0080ff" alt="repo-language-count">
 
 <em>Built with the tools and technologies:</em>
 
