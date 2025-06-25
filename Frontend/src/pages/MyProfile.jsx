@@ -45,18 +45,18 @@ const MyProfile = () => {
   }
 
   return userData && (
-      <div className='max-w-lg flex flex-col gap-2 text-sm'>
+      <div className='w-full bg-white shadow-lg rounded-xl p-6 flex flex-col gap-4 text-sm'>
 
         {
           isEdit
           ? <label htmlFor="image">
             <div className='inline-block relative cursor-pointer'>
-              <img className='w-36 rounded opacity-75' src={image ? URL.createObjectURL(image): userData.image} alt="" />
-              <img className='w-10 absolute bottom-12 right-12' src={image ? '': assets.upload_icon} alt="" />
+              <img className='w-36 h-36 object-cover rounded-full border border-gray-300 opacity-75 hover:opacity-90 transition' src={image ? URL.createObjectURL(image): userData.image} alt="" />
+              <img className='w-8 absolute bottom-2 right-2' src={image ? '': assets.upload_icon} alt="" />
             </div>
             <input onChange={(e) => setImage(e.target.files[0])} type="file" id="image" hidden />
           </label>
-          : <img className='w-36 rounded' src={userData.image} alt="" />
+          : <img className='w-36 h-36 object-cover rounded-full border border-gray-300' src={userData.image} alt="" />
 
         }
 
@@ -121,8 +121,8 @@ const MyProfile = () => {
         <div className='mt-10'>
           {
             isEdit
-            ? <button className='border border-primary px-8 py-2 rounded-full hover:bg-primary hover:text-white transition-all' onClick={updateUserProfileData}>Save Information</button>
-            : <button className='border border-primary px-8 py-2 rounded-full hover:bg-primary hover:text-white transition-all' onClick={()=>setIsEdit(true)}>Edit</button>
+            ? <button className='border border-primary px-16 py-2 rounded-full hover:bg-primary hover:text-white transition-all' onClick={updateUserProfileData}>Save Information</button>
+            : <button className='border border-primary px-32 py-2 rounded-full hover:bg-primary hover:text-white transition-all' onClick={()=>setIsEdit(true)}>Edit</button>
           }
         </div>
       </div>
