@@ -38,6 +38,10 @@
 
 **ZR Health Link** is a robust fullstack doctor appointment booking system built with the MERN stack, designed to modernize and streamline the process of scheduling medical appointments across patients, doctors, and administrators.
 
+## Preview
+
+https://github.com/user-attachments/assets/3e5963cf-a0c3-4399-a6b4-76a5f3fabbad
+
 **Why ZR Health Link?**
 
 This project delivers a scalable healthcare platform with intuitive workflows, secure role-based access, and seamless user experience. Ideal for hospitals, clinics, or individual practitioners, ZR Health Link supports end-to-end appointment lifecycle management.
