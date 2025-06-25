@@ -67,7 +67,6 @@ const Navbar = () => {
                                 <a
                                     href="http://localhost:5174"
                                     target="_blank"
-                                    rel="noopener noreferrer"
                                     className='bg-gray-800 text-white px-4 py-3 rounded-full font-light text-sm'
                                 >
                                     Admin Panel

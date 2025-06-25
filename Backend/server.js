@@ -6,10 +6,10 @@ import connectCloudinary from './config/cloudinary.js'
 import adminRouter from './routes/adminRoute.js'
 import doctorRouter from './routes/doctorRoute.js'
 import userRouter from './routes/userRoute.js'
+import serverless from '@vendia/serverless-express'
 
 //app config
 const app = express()
-const port = process.env.port || 4000
 connectDB()
 connectCloudinary()
 
@@ -28,4 +28,4 @@ app.get('/',(req,res)=>{
 
 })
 
-app.listen(port, ()=> console.log("Server Started",port))
+export const handler = serverless({ app })
