@@ -47,7 +47,9 @@ const Navbar = () => {
                                         <p onClick={() => navigate('my-profile')} className='hover:text-black cursor-pointer'>My Profile</p>
                                         <p onClick={() => navigate('my-appointments')} className='hover:text-black cursor-pointer'>My Appointments</p>
                                         <p
-                                            onClick={() => window.open('http://localhost:5174', '_blank')}
+                                            //Change this here to something like this
+                                            // onClick={() => window.open('/admin', '_blank')}
+                                            onClick={() => window.open('/admin', '_blank')}
                                             className='hover:text-black cursor-pointer'
                                         >
                                             Admin Panel
