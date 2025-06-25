@@ -18,15 +18,10 @@ connectCloudinary()
 //Middlewares
 app.use(express.json())
 app.use(cors({
-    origin: function (origin, callback) {
-        if (!origin || allowedOrigins.includes(origin)) {
-        callback(null, true);
-        } else {
-        callback(new Error('Not allowed by CORS'));
-        }
-    },
+    origin: 'https://zrhealthlinkuser.vercel.app',
     credentials: true
 }));
+
 
 // api endpoints
 app.use('/api/admin', adminRouter)
